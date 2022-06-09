@@ -9,3 +9,90 @@
     --ColorBeneficios1: #4B088A;
     --ColorBeneficios2: #FFFFFF;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'DM Sans', sans-serif;
+}
+.inicio{
+    background: linear-gradient(180deg, #0D0D2B 35.42%, rgba(114, 109, 137, 0.92) 58.85%, rgba(83, 28, 179, 0.78) 93.23%);
+}
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    height: 251px;
+    text-align: center;
+    background-image: url("../Assets/FondoTitulo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+header>img{
+    position: absolute;
+    width: 283px;
+    height: 85px;
+    left: 40px;
+    top: 8px;
+
+}
+.header-title>h1{
+    position: absolute;
+    width: 375px;
+    height: 78px;
+    left: 0px;
+    top: 99px;
+    
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+.header-title>p{
+    position: absolute;
+    width: 375px;
+    height: 61px;
+    left: 0px;
+    top: 177px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+
+    background: linear-gradient(180deg, rgba(211, 211, 211, 0.83) 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.header-button{
+    padding-top: 15px;
+    position: absolute;
+    width: 260px;
+    height: 50px;
+    left: 56px;
+    top: 238px;
+    background-color: var(--BtnColor);
+    text-decoration: none;
+    color: #FFF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+
+}
