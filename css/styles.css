@@ -20,6 +20,7 @@ html{
 }
 .inicio{
     background: linear-gradient(180deg, #0D0D2B 35.42%, rgba(114, 109, 137, 0.92) 58.85%, rgba(83, 28, 179, 0.78) 93.23%);
+    background-attachment:fixed;
 }
 
 header{
