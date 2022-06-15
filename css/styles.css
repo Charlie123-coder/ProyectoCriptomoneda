@@ -1,99 +1,172 @@
-:root{
-    /* Colores */
-    --BtnColor : #E5720B;
-    --Fondo: #8D7697;
-    --FondoInicio1: #0D0D2B;
-    --FondoInicio2: #726D89;
-    --FondoInicio3: #531CB3;
-    --BtnCambios : #E5E5E5;
-    --ColorBeneficios1: #4B088A;
-    --ColorBeneficios2: #FFFFFF;
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+  /* Colores */
+  --BtnColor: #e5720b;
+  --Fondo: #8d7697;
+  --FondoInicio1: #0d0d2b;
+  --FondoInicio2: #726d89;
+  --FondoInicio3: #531cb3;
+  --BtnCambios: #e5e5e5;
+  --ColorBeneficios1: #4b088a;
+  --ColorBeneficios2: #ffffff;
 }
 
-html{
-    font-family: 'DM Sans', sans-serif;
-}
-.inicio{
-    background: linear-gradient(180deg, #0D0D2B 35.42%, rgba(114, 109, 137, 0.92) 58.85%, rgba(83, 28, 179, 0.78) 93.23%);
-    background-attachment:fixed;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    min-width: 320px;
-    height: 251px;
-    text-align: center;
-    background-image: url("../Assets/FondoTitulo.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-
-}
-header>img{
-    position: absolute;
-    width: 283px;
-    height: 85px;
-    left: 40px;
-    top: 8px;
-
-}
-.header-title>h1{
-    position: absolute;
-    width: 375px;
-    height: 78px;
-    left: 0px;
-    top: 99px;
-    
-    font-family: 'DM Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 26px;
-    text-align: center;
-    
-    color: #FFFFFF;
+html {
+  font-family: "DM Sans", sans-serif;
 }
 
-.header-title>p{
-    position: absolute;
-    width: 375px;
+.inicio {
+  background: linear-gradient(
+    180deg,
+    #0d0d2b 35.42%,
+    rgba(114, 109, 137, 0.92) 58.85%,
+    rgba(83, 28, 179, 0.78) 93.23%
+  );
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  max-width: 1326px;
+  height: 251px;
+  background-image: url("../Assets/FondoTitulo.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+header > img {
+  margin: 0 auto;
+  min-width: 283px;
+  max-width: 500px;
+  height: 85px;
+  left: 40px;
+  top: 8px;
+}
+
+.header-title {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  min-width: 280px;
+  max-width: 1280px;
+}
+
+.header-title h1 {
+  min-width: 375px;
+  max-width: 900px;
+  height: 78px;
+  left: 0px;
+  top: 99px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.header-p {
+  min-width: 375px;
+  max-width: 900px;
+  height: 61px;
+  left: 0px;
+  top: 177px;
+
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+
+  background: linear-gradient(
+    180deg,
+    rgba(211, 211, 211, 0.83) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.header-button {
+  margin: 0 auto;
+  padding: 15px;
+  min-width: 260px;
+  max-width: 700px;
+  height: 75px;
+  left: 56px;
+  top: 238px;
+  background-color: var(--BtnColor);
+  text-decoration: none;
+  color: #fff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
+}
+
+.cuerpo {
+  font-family: "DM sans";
+  height: 420px;
+  min-width: 320px;
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+}
+
+.imgCuerpo {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 296px;
+  height: 161px;
+}
+
+.info {
+  margin-top: 35px;
+}
+
+.info-title {
+  min-width: 224px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info-text {
+  margin-top: 15px;
+}
+
+@media only screen and (min-width: 501px) {
+  .header-p {
+    min-width: 375px;
+    max-width: 900px;
     height: 61px;
     left: 0px;
     top: 177px;
 
-    font-family: 'DM Sans';
+    font-family: "DM Sans";
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
     text-align: center;
-
-    background: linear-gradient(180deg, rgba(211, 211, 211, 0.83) 0%, rgba(255, 255, 255, 0) 100%);
+    color: #fff;
+    background: #fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
-}
-
-.header-button{
-    padding-top: 15px;
-    position: absolute;
-    width: 260px;
-    height: 50px;
-    left: 56px;
-    top: 238px;
-    background-color: var(--BtnColor);
-    text-decoration: none;
-    color: #FFF;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
-
+    /* text-fill-color: transparent; */
+  }
 }
