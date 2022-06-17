@@ -1,0 +1,148 @@
+.contenedor-plan {
+  min-width: 375px;
+  max-width: 100%;
+  background: gray;
+  text-align: center;
+}
+.contenedor-plan img {
+  min-width: 250px;
+  max-width: 500px;
+  object-fit: cover;
+}
+
+.text-plan {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+  color: #000000;
+}
+hr {
+  color: white;
+}
+
+.contenedor-planes {
+  min-width: 375px;
+  max-width: 100%;
+  justify-items: center;
+  text-align: center;
+}
+
+.title-planes {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+
+.recomendado {
+  position: relative;
+  margin: 0 auto;
+  height: 36.12px;
+  width: 50%;
+  max-width: 250px;
+  background: rgba(102, 98, 105, 0.5);
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  align-items: center;
+  margin-bottom: -13px;
+}
+.text-recomendado {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 16px;
+  color: #ffffff;
+}
+
+.contenedor-tarjeta-planes {
+  margin: 0 auto;
+  padding: 15px;
+  background: #fff;
+  min-width: 203px;
+  max-width: 230px;
+  height: 259.39px;
+  margin-bottom: 25px;
+}
+.title-tarjeta-plan {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 15px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.precio {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: fit-content;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.simbolo-precio {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 15px;
+  color: #000000;
+}
+.pesos {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 58px;
+  color: #000000;
+}
+.description-tarjeta {
+  margin-top: 25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 13px;
+  color: #000000;
+}
+
+.btn-plan {
+  margin-top: 45px;
+  width: 129.4px;
+  height: 36.12px;
+  left: 122.8px;
+  top: 405.14px;
+  color: #000;
+  background: #e5720b;
+  opacity: 0.8;
+  border: 1px solid rgba(237, 48, 23, 0.74);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cont-footer {
+  min-width: 375px;
+  max-width: 100%;
+  height: auto;
+  background: #4b088a;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.elementos {
+  text-align: center;
+  color: #fff;
+}
+.cont-footer img {
+  margin: 0 auto;
+  justify-content: end;
+  text-align: end;
+}
