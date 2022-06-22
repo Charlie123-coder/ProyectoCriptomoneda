@@ -4,9 +4,7 @@
   margin-left: 48px;
   min-width: 161px;
   max-width: 250px;
-  height: 47px;
-  left: 47px;
-  top: 79px;
+
   font-family: "DM Sans";
   font-style: normal;
   font-weight: 700;
@@ -18,11 +16,10 @@
 }
 
 .grid-container {
-  min-width: 419px;
+  min-width: 375px;
   max-width: 100vw;
   text-align: center;
   margin-top: 25px;
-  gap: 15px;
   display: grid;
 
   /*Flex pone los componentes uno al lado del otro*/
@@ -32,15 +29,19 @@
 .grid-container-items {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  gap: 5px;
 }
 
-.container-items .item {
-  display: flex;
-  flex-direction: column;
+.grid-container-items .item {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  flex-direction: row;
 }
 
 .left-arrow {
+  max-width: 35px;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -53,6 +54,8 @@
   max-height: 50px;
 }
 .right-arrow {
+  margin-left: -15px;
+  max-width: 35px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -82,7 +85,7 @@
 
 .actualizacion {
   margin: 0 auto;
-  min-width: 419px;
+  min-width: 375px;
   max-width: 900px;
   display: flex;
   flex-direction: column;
