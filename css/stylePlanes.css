@@ -41,11 +41,19 @@ hr {
   margin-bottom: 60px;
 }
 
+.containerHorizontal {
+  overflow: auto;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 25px;
+}
+
 .recomendado {
   position: relative;
   margin: 0 auto;
   height: 36.12px;
-  width: 50%;
+  width: 70%;
   max-width: 250px;
   background: rgba(102, 98, 105, 0.5);
   border: 1px solid #ffffff;
@@ -57,7 +65,7 @@ hr {
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 16px;
   color: #ffffff;
 }
